@@ -5,6 +5,6 @@ import './styles.css';
 
 ReactDOM.createRoot(document.getElementById("root")).render( //Renderizar compoennte en el DOM
     <React.StrictMode>
-        <FirstApp title={"Hola, soy Oscar"} subTitle={124} />
+        <FirstApp />
     </React.StrictMode>
 )
