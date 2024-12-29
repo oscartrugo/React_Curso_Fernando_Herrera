@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const FirstApp = () => {
+export const FirstApp = ({title, subTitle}) => {
+
   return (
     <>
-        <h1>Oscar</h1>
+        <h1>{ title } { subTitle }</h1>
         <p>Full Stack Developer</p>
     </>
   )
