@@ -6,7 +6,6 @@ import { CounterApp } from './CounterApp';
 
 ReactDOM.createRoot(document.getElementById("root")).render( //Renderizar compoennte en el DOM
     <React.StrictMode>
-        <FirstApp />
-        <CounterApp value={10} />
+        <CounterApp value={0} />
     </React.StrictMode>
 )
