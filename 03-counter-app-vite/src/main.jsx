@@ -7,6 +7,6 @@ import './styles.css';
 ReactDOM.createRoot(document.getElementById("root")).render( //Renderizar compoennte en el DOM
     <React.StrictMode>
         {/* <CounterApp value={0} /> */}
-        <FirstApp />
+        <FirstApp title='Hola, Soy Vegeta' />
     </React.StrictMode>
 )
