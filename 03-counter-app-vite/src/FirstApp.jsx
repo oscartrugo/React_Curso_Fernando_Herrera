@@ -1,4 +1,3 @@
-import React from 'react'
 import PropTypes from 'prop-types';
 
 export const FirstApp = ({title, subTitle, name}) => {
@@ -15,11 +14,11 @@ export const FirstApp = ({title, subTitle, name}) => {
 FirstApp.propTypes = {
   title: PropTypes.string.isRequired,
   subTitle: PropTypes.string,
-  name: PropTypes.string
-}
+  // name: PropTypes.string
+};
 
 FirstApp.defaultProps = {
   title: 'No hay título',
   subTitle: 'No hay subtítulo',
-  name: 'Oscar Trujillo'
-}
+  // name: 'Oscar Trujillo'
+};
